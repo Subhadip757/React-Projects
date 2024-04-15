@@ -1,11 +1,12 @@
 import UserGreeting from "./UserGreeting"
 
 
+
 function App() {
 
   return (
    <>
-    <UserGreeting isLoggedIn={false} username='Subhadip'/>
+    <UserGreeting isLoggedIn = {true}/>
    </>
   )
 }
